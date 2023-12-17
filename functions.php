@@ -138,8 +138,6 @@ function cari($keyword) {
 }
 
 
-
-//login
 //login
 function regis($data)
 {
@@ -148,12 +146,6 @@ function regis($data)
     $email = strtolower(stripslashes($data["email"]));
     $password = mysqli_real_escape_string($syauqy, $data["password"]);
     $password2 = mysqli_real_escape_string($syauqy, $data["password2"]);
-
-    // Mendapatkan alamat IP pengguna
-    $ip_address = $_SERVER['REMOTE_ADDR'];
-
-    // Mendapatkan jenis browser pengguna
-    $browser = $_SERVER['HTTP_USER_AGENT'];
 
     //cek email sudah ada atau tidak
     $result = mysqli_query($syauqy, "SELECT email FROM user WHERE email = '$email'");
@@ -176,8 +168,9 @@ function regis($data)
     $password = password_hash($password, PASSWORD_DEFAULT);
 
     //tambahkan user ke database
-    $query = "INSERT INTO user VALUES ('','$email','$password','$ip_address','$browser')";
+    $query = "INSERT INTO user VALUES ('','$email','$password')";
     mysqli_query($syauqy, $query);
 
     return mysqli_affected_rows($syauqy);
 }
+

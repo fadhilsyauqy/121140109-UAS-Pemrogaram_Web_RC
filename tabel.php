@@ -30,8 +30,10 @@ if (isset($_POST["cari"])) {
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
 
+    <!-- CSS -->
+    <link rel="stylesheet" href="style/style.css">
 
-    <title>Settings</title>
+    <title>Tabel</title>
 </head>
 
 <body>
@@ -91,41 +93,41 @@ if (isset($_POST["cari"])) {
                     <button class="btn btn-outline-primary" name="cari" type="submit">Telusuri</button>
                 </form>
             </div>
-
-            <table class="table table-striped table-hover mt-3">
-                <tr>
-                    <th>No.</th>
-                    <th>Nama</th>
-                    <th>NIM</th>
-                    <th>Program Studi</th>
-                    <th>Alamat</th>
-                    <th>Foto</th>
-                    <th>Aksi</th>
-                </tr>
-
-                <?php $i = 1; ?>
-                <?php foreach ($mahasiswa as $row) : ?>
+            <dir class="table-responsive">
+                <table class="table table-striped table-hover mt-3">
                     <tr>
-                        <td><?= $i; ?></td>
-                        <td><?= $row["nama"]; ?></td>
-                        <td><?= $row["nim"]; ?></td>
-                        <td><?= $row["prodi"]; ?></td>
-                        <td><?= $row["alamat"]; ?></td>
-                        <td><img src="image/<?= $row["gambar"]; ?>" alt="foto rusak" width="80"></td>
-                        <td>
-
-                            <a class="text-decoration-none" href="ubah.php?id=<?= $row["id"]; ?>">
-                                <button type="button" class="btn btn-outline-warning">UPDATE</button>
-                            </a>
-                            <a class="text-decoration-none" href="hapus.php?id=<?= $row["id"]; ?>" onclick="return confirm('anda yakin menghapus data ini');">
-                                <button type="button" class="btn btn-outline-danger">DELETE</button>
-                            </a>
-                        </td>
+                        <th>No.</th>
+                        <th>Nama</th>
+                        <th>NIM</th>
+                        <th>Program Studi</th>
+                        <th>Alamat</th>
+                        <th>Foto</th>
+                        <th>Aksi</th>
                     </tr>
-                    <?php $i++; ?>
-                <?php endforeach; ?>
 
-            </table>
+                    <?php $i = 1; ?>
+                    <?php foreach ($mahasiswa as $row) : ?>
+                        <tr>
+                            <td><?= $i; ?></td>
+                            <td><?= $row["nama"]; ?></td>
+                            <td><?= $row["nim"]; ?></td>
+                            <td><?= $row["prodi"]; ?></td>
+                            <td><?= $row["alamat"]; ?></td>
+                            <td><img src="image/<?= $row["gambar"]; ?>" alt="foto rusak" width="80"></td>
+                            <td>
+
+                                <a class="text-decoration-none" href="ubah.php?id=<?= $row["id"]; ?>">
+                                    <button type="button" class="btn btn-outline-warning">UPDATE</button>
+                                </a>
+                                <a class="text-decoration-none" href="hapus.php?id=<?= $row["id"]; ?>" onclick="return confirm('anda yakin menghapus data ini');">
+                                    <button type="button" class="btn btn-outline-danger">DELETE</button>
+                                </a>
+                            </td>
+                        </tr>
+                        <?php $i++; ?>
+                    <?php endforeach; ?>
+                </table>
+            </dir>
         </div>
     </div>
 

@@ -36,7 +36,7 @@ if (isset($_POST["register"])) {
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
 
     <!-- CSS -->
-    <link rel="stylesheet" href="../style/login.css">
+    <link rel="stylesheet" href="style/style.css">
 
     <title>Register</title>
 
@@ -58,7 +58,7 @@ if (isset($_POST["register"])) {
                     <div class="input-group">
                         <input type="password" name="password" id="password" class="form-control rounded-4 " placeholder="Password">
                         <button class="btn" type="button" id="eye">
-                            <i class="bi bi-eye-slash-fill"></i>
+                            <i class="bi bi-eye-slash-fill" style="color: #d87093;"></i>
                         </button>
                     </div>
                     <span class="error-msg text-danger" id="passwordError"></span>
@@ -68,13 +68,13 @@ if (isset($_POST["register"])) {
                     <div class="input-group">
                         <input type="password" name="password2" id="password2" class="form-control rounded-4 " placeholder="Konfirmasi Password">
                         <button class="btn" type="button" id="eyeConfirm">
-                            <i class="bi bi-eye-slash-fill"></i>
+                            <i class="bi bi-eye-slash-fill" style="color: #d87093;"></i>
                         </button>
                     </div>
                     <span class="error-msg text-danger" id="password2Error"></span>
                 </div>
                 <div class="d-grid z col-6 mx-auto mb-3">
-                    <button class="btn  text-white" style="background: #d87093;" type="submit" name="register" onclick="return validateForm()">Register</button>
+                    <button class="btn  text-white" style="background: #d87093;" type="submit" name="register" onclick="return validateRegis()">Register</button>
                 </div>
                 <div id="huruf">
                     <p class="text-center">Sudah punya akun? <a href="login.php" style="color: #d87093;">Login</a></p>

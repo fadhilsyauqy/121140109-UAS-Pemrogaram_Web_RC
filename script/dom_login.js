@@ -15,15 +15,4 @@ document.addEventListener("DOMContentLoaded", function() {
     loginContainer.style.padding = "1.5rem";
     loginContainer.style.backgroundColor = "#fff";
     loginContainer.style.boxShadow = "0 0 10px rgba(0, 0, 0, 0.3)";
-
-    const rememberCheckbox = document.getElementById("remember");
-    const rememberLabel = document.querySelector('label[for="remember"]');
-
-    rememberCheckbox.addEventListener("change", function() {
-        if (this.checked) {
-            rememberLabel.style.color = "#d87093";
-        } else {
-            rememberLabel.style.color = ""; // Kembali ke warna default jika checkbox tidak tercentang
-        }
-    });
 });

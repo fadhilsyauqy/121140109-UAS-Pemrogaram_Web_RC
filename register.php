@@ -9,7 +9,7 @@ if (isset($_POST["register"])) {
             </script>";
 
         // Redirect ke halaman login
-        header("Location: login.php");
+        header("Location: index.php");
         exit;
     } else {
         echo mysqli_error($syauqy);

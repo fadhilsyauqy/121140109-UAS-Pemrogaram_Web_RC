@@ -86,7 +86,7 @@ if (isset($_POST["register"])) {
     </div>
 
     <script src="script/dom_login.js"></script>
-    <script src="script/show.js"></script>
+    <script src="script/shw_regis(oop).js"></script>
     <script src="script/validasi_regis.js"></script>
 </body>
 

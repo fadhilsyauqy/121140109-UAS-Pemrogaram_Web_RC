@@ -143,7 +143,7 @@ if (isset($_POST["login"])) {
     </div>
 
     <script src="script/dom_login.js"></script>
-    <script src="script/show.js"></script>
+    <script src="script/shw_login(oop).js"></script>
     <script src="script/validasi_login.js"></script>
 </body>
 

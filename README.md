@@ -1,4 +1,4 @@
-# 121140109
+# Rahmat Fadhil Syauqy.A - 121140109
 ## UAS PEMROGRAMAN WEB
 
 
@@ -100,4 +100,4 @@ Hosting menggunakan InfinityFree bisa dilakukan dengan beberapa langkah sederhan
 9. Pemeliharaan dan Pembaruan:
     Lakukan pemeliharaan rutin dan perbarui situs web Anda sesuai kebutuhan. Pastikan untuk menyimpan salinan cadangan (backup) situs secara teratur.
 
-### berikut link dari Web yang telah dihosting : https://121140109-uas-pemweb.rf.gd/
+### berikut link dari Web yang telah dihosting : https://121140109-uas-pemweb.rf.gd

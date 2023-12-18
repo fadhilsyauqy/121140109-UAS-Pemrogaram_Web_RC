@@ -18,14 +18,14 @@ if (isset($_POST["submit"])) {
         echo "
             <script>
                 alert('DATA BERHASIL DITAMBAH');
-                document.location.href = 'settings.php'
+                document.location.href = 'tabel.php'
             </script>
         ";
     } else {
         echo "
             <script>
                 alert('DATA GAGAL DITAMBAH');
-                document.location.href = 'settings.php';
+                document.location.href = 'tabel.php';
             </script>
         ";
     }

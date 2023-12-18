@@ -1,16 +1,32 @@
 <?php
 require 'koneksi.php';
 
-
-function query($query){
+function query($query, $params = []) {
     global $syauqy;
-    $result = mysqli_query($syauqy, $query);
-    $rows = [] ;
-    while ($row = mysqli_fetch_assoc($result)){
+    $stmt = mysqli_prepare($syauqy, $query);
+    
+    if ($stmt === false) {
+        // Handle any errors here
+        return false;
+    }
+    
+    if (!empty($params)) {
+        $types = str_repeat('s', count($params)); // Assuming all params are strings
+        mysqli_stmt_bind_param($stmt, $types, ...$params);
+    }
+
+    mysqli_stmt_execute($stmt);
+    $result = mysqli_stmt_get_result($stmt);
+
+    $rows = [];
+    while ($row = mysqli_fetch_assoc($result)) {
         $rows[] = $row;
     }
+
+    mysqli_stmt_close($stmt);
     return $rows;
 }
+
 
 function tambah($data){
     global $syauqy;
@@ -174,3 +190,4 @@ function regis($data)
     return mysqli_affected_rows($syauqy);
 }
 
+?>

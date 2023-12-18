@@ -77,7 +77,7 @@ if (isset($_POST["register"])) {
                     <button class="btn  text-white" style="background: #d87093;" type="submit" name="register" onclick="return validateRegis()">Register</button>
                 </div>
                 <div id="huruf">
-                    <p class="text-center">Sudah punya akun? <a href="login.php" style="color: #d87093;">Login</a></p>
+                    <p class="text-center">Sudah punya akun? <a href="index.php" style="color: #d87093;">Login</a></p>
                 </div>
 
             </form>

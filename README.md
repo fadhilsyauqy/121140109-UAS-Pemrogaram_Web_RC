@@ -11,9 +11,13 @@ Tampilan Formulir
 <img width="645" src="https://github.com/fadhilsyauqy/121140109-UAS-Pemrogaram_Web_RC/assets/114084292/2e5e6383-e1fe-4b25-8ef0-1d59280f66c7">
 
 
+
+
 <b>Tampilan Home</b>
 
 <img width="645" src="https://github.com/fadhilsyauqy/121140109-UAS-Pemrogaram_Web_RC/assets/114084292/58e4d8bf-40cd-40ef-8f0b-7e67d4b857b9">
+
+
 
 
 Tampilan Fungsi Crud
@@ -21,9 +25,13 @@ Tampilan Fungsi Crud
 <img  width="645" src="https://github.com/fadhilsyauqy/121140109-UAS-Pemrogaram_Web_RC/assets/114084292/7d04fa0a-45a2-4b2d-99ec-dea390c00772">
 
 
+
+
 Penggunaan Event
 
 ![Cuplikan layar 2023-12-18 082644](https://github.com/fadhilsyauqy/121140109-UAS-Pemrogaram_Web_RC/assets/114084292/df163013-545b-4bd4-8086-061127b0105d)
+
+
 
 
 validasi inputan
@@ -40,6 +48,8 @@ Implementasi CRUD pada website
 ![image](https://github.com/fadhilsyauqy/121140109-UAS-Pemrogaram_Web_RC/assets/114084292/0647fdde-caa4-4b44-90da-9e5a7572315e)
 
 
+
+
 Bagian Menyimpan IP address dan Browser
 
 ![image](https://github.com/fadhilsyauqy/121140109-UAS-Pemrogaram_Web_RC/assets/114084292/d46ff11c-ca9c-4a03-bf4c-ff85305e57b0)
@@ -48,9 +58,13 @@ Bagian Menyimpan IP address dan Browser
 
 ## Bagian 3: Database Management
 
+
+
 <b>database</b>
 
 ![image](https://github.com/fadhilsyauqy/121140109-UAS-Pemrogaram_Web_RC/assets/114084292/6f49bdaf-9a42-4865-af18-bfe3104586a1)
+
+
 
 
 

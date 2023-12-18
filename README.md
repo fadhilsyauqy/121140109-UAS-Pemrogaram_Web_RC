@@ -6,59 +6,61 @@ Ini merupakan Proyek UAS Pemrograman Web
 
 ## Bagian 1: Client-side Programming
 
-<img width="645" src="https://github.com/fadhilsyauqy/121140109-UAS-Pemrogaram_Web_RC/assets/114084292/2e5e6383-e1fe-4b25-8ef0-1d59280f66c7">
-
 Tampilan Formulir
 
+<img width="645" src="https://github.com/fadhilsyauqy/121140109-UAS-Pemrogaram_Web_RC/assets/114084292/2e5e6383-e1fe-4b25-8ef0-1d59280f66c7">
 
-<img width="645" src="https://github.com/fadhilsyauqy/121140109-UAS-Pemrogaram_Web_RC/assets/114084292/58e4d8bf-40cd-40ef-8f0b-7e67d4b857b9">
 
 <b>Tampilan Home</b>
 
+<img width="645" src="https://github.com/fadhilsyauqy/121140109-UAS-Pemrogaram_Web_RC/assets/114084292/58e4d8bf-40cd-40ef-8f0b-7e67d4b857b9">
 
-<img  width="645" src="https://github.com/fadhilsyauqy/121140109-UAS-Pemrogaram_Web_RC/assets/114084292/7d04fa0a-45a2-4b2d-99ec-dea390c00772">
 
 Tampilan Fungsi Crud
 
+<img  width="645" src="https://github.com/fadhilsyauqy/121140109-UAS-Pemrogaram_Web_RC/assets/114084292/7d04fa0a-45a2-4b2d-99ec-dea390c00772">
 
-
-![Cuplikan layar 2023-12-18 082644](https://github.com/fadhilsyauqy/121140109-UAS-Pemrogaram_Web_RC/assets/114084292/df163013-545b-4bd4-8086-061127b0105d)
 
 Penggunaan Event
 
+![Cuplikan layar 2023-12-18 082644](https://github.com/fadhilsyauqy/121140109-UAS-Pemrogaram_Web_RC/assets/114084292/df163013-545b-4bd4-8086-061127b0105d)
+
+
+validasi inputan
 
 ![image](https://github.com/fadhilsyauqy/121140109-UAS-Pemrogaram_Web_RC/assets/114084292/8de7a653-1db7-49ed-9cef-4ff7fec91590)
 
-validasi inputan
+
 
 
 ## Bagian 2: Server-side Programming
 
-![image](https://github.com/fadhilsyauqy/121140109-UAS-Pemrogaram_Web_RC/assets/114084292/0647fdde-caa4-4b44-90da-9e5a7572315e)
-
 Implementasi CRUD pada website
 
+![image](https://github.com/fadhilsyauqy/121140109-UAS-Pemrogaram_Web_RC/assets/114084292/0647fdde-caa4-4b44-90da-9e5a7572315e)
 
-![image](https://github.com/fadhilsyauqy/121140109-UAS-Pemrogaram_Web_RC/assets/114084292/d46ff11c-ca9c-4a03-bf4c-ff85305e57b0)
 
 Bagian Menyimpan IP address dan Browser
 
+![image](https://github.com/fadhilsyauqy/121140109-UAS-Pemrogaram_Web_RC/assets/114084292/d46ff11c-ca9c-4a03-bf4c-ff85305e57b0)
+
+
+
 ## Bagian 3: Database Management
-
-
-![image](https://github.com/fadhilsyauqy/121140109-UAS-Pemrogaram_Web_RC/assets/114084292/6f49bdaf-9a42-4865-af18-bfe3104586a1)
 
 <b>database</b>
 
+![image](https://github.com/fadhilsyauqy/121140109-UAS-Pemrogaram_Web_RC/assets/114084292/6f49bdaf-9a42-4865-af18-bfe3104586a1)
 
 
-![image](https://github.com/fadhilsyauqy/121140109-UAS-Pemrogaram_Web_RC/assets/114084292/3c24e72e-6658-45a5-a263-ecc360d026ab)
 
 <b>koneksi mysql</b>
 
+![image](https://github.com/fadhilsyauqy/121140109-UAS-Pemrogaram_Web_RC/assets/114084292/3c24e72e-6658-45a5-a263-ecc360d026ab)
+
+
 
 ## Bagian 4: State Management 
-
 
 ![image](https://github.com/fadhilsyauqy/121140109-UAS-Pemrogaram_Web_RC/assets/114084292/bf2c08e1-885d-461d-962c-715d14468bd5)
 ![image](https://github.com/fadhilsyauqy/121140109-UAS-Pemrogaram_Web_RC/assets/114084292/114274c8-c3a0-4579-b92e-4f977798be10)

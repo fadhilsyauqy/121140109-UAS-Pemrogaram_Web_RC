@@ -95,7 +95,6 @@ Penggunaan: Sesi memungkinkan server menyimpan data yang relevan dengan pengguna
 
 ## Bagian 5: Hosting Aplikasi Web
 
-ChatGPT
 Hosting menggunakan InfinityFree bisa dilakukan dengan beberapa langkah sederhana. Berikut ini adalah langkah-langkah umumnya:
 1. Buat Akun di InfinityFree
    Kunjungi situs web InfinityFree dan buat akun. Ini mungkin melibatkan proses pendaftaran yang membutuhkan alamat email aktif.
